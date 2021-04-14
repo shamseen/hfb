@@ -4,8 +4,8 @@
 body {
   margin-top:20px;
   font-family: Osaka;
-  background-color: ghostwhite;
-  color: inherit;
+  background-color: #F7EBE8;
+  color: #444140;
 }
 
 h2, h3, h5 {
@@ -44,8 +44,8 @@ a {
   border-radius:100%;
   background-color: #FF8E00;
   text-align: left;
-  background-image: radial-gradient(circle, #ffcd8d, orange);
-  box-shadow: 4px 4px 8px orange, -4px -4px 8px orange, 4px -4px 8px orange, -4px 4px 8px orange;
+  background-image: radial-gradient(circle, #ffcd8d,#FFA987);
+  box-shadow: 4px 4px 8px #FFA987, -4px -4px 8px #FFA987, 4px -4px 8px #FFA987, -4px 4px 8px #E54B4B;
   text-align: center;
   vertical-align: middle;
 }
@@ -54,7 +54,7 @@ a {
   color: rgba(255, 255, 255, 0.1);
 }
 #happy-fun-ball:hover{
-    background-image: radial-gradient(circle, orange, #ffcd8d);
+    background-image: radial-gradient(circle, #FFA987, #ffcd8d);
       box-shadow: 4px 4px 8px white, -4px -4px 8px white, 4px -4px 8px white, -4px 4px 8px white;
 }
 
@@ -77,5 +77,5 @@ h1 {
 }
 
 .price {
-  color: orange;
+  color: #E54B4B;
 }
